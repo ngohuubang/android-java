@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Button nutintro = (Button) findViewById(R.id.btnok);
+        Button nutintro = (Button) findViewById(R.id.btnconfirm);
         //2. cai dat bo lang nghe su kien
         nutintro.setOnClickListener(xulychuyensanghome);
     }
@@ -27,20 +27,21 @@ public class LoginActivity extends AppCompatActivity {
             EditText edtdn = (EditText) findViewById(R.id.edtusername);
             EditText edtmk = (EditText) findViewById(R.id.edtpass);
             EditText edtmail = (EditText) findViewById(R.id.edtemail);
-            String Sten = "ngohuubang";
-            String Smk = "cntt";
-            String Smail = "bangnh@gmail.com";
+            String StringTen = "ngohuubang";
+            String StringMk = "cntt";
+            String StringEmail = "bangnh@gmail.com";
             String x = edtdn.getText().toString();
             String y = edtmk.getText().toString();
             String z = edtmail.getText().toString();
-            if ((x.equals(Sten)) && (y.equals(Smk)) && (z.equals(Smail))) {
+            //sử dung hàm equals để so sanh hay chuỗi, đúng trả về true
+            if ((x.equals(StringTen)) && (y.equals(StringMk)) && (z.equals(StringEmail))) {
 
-                Toast.makeText(LoginActivity.this, "Login success", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "Login thành công", Toast.LENGTH_SHORT).show();
                 Intent iHome = new Intent(LoginActivity.this, HomeActivity.class);
                 iHome.putExtra("usr", x);
                 startActivity(iHome);
             } else {
-                Toast.makeText(LoginActivity.this, "Login fail ,try again !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "Login thất bại, thử lại !", Toast.LENGTH_SHORT).show();
             }
         }
     };

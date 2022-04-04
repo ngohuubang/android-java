@@ -7,7 +7,7 @@
     tools:context=".LoginActivity">
 
     <Button
-        android:id="@+id/btnok"
+        android:id="@+id/btnconfirm"
         android:layout_width="153dp"
         android:layout_height="68dp"
         android:text="Xác Nhận"
@@ -110,6 +110,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/nha_trang_university_seal" />
+        app:srcCompat="@drawable/nha_trang_university_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
