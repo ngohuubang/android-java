@@ -1,4 +1,4 @@
-package ngohuubang.bkt2;
+package ngohuubang.baikt2;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ngohuubang.bkt2", appContext.getPackageName());
+        assertEquals("ngohuubang.baikt2", appContext.getPackageName());
     }
 }

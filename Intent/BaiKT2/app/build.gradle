@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "ngohuubang.bkt2"
+        applicationId "ngohuubang.baikt2"
         minSdkVersion 16
         targetSdkVersion 31
         versionCode 1

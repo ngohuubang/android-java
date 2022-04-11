@@ -1,4 +1,4 @@
-package ngohuubang.bkt2;
+package ngohuubang.baikt2;
 
 import org.junit.Test;
 
