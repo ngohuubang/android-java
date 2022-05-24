@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvChieuCao"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Chiều Cao"
+            android:textSize="26dp"></TextView>
+
+        <EditText
+            android:id="@+id/edChieuCao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chiều Cao"
+
+            ></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDay"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Đáy"
+            android:textSize="26dp"></TextView>
+
+        <EditText
+            android:id="@+id/edDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đáy"
+
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCanhBen"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Cạnh bên"
+            android:textSize="26dp"></TextView>
+
+        <EditText
+            android:id="@+id/edCanhBen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cạnh bên"
+
+            ></EditText>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btntinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:text="tinh"
+        android:onClick="XuLy"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvKetQuaChuVi"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Chu vi"
+            android:textSize="26dp"></TextView>
+
+        <EditText
+            android:id="@+id/edKetQuaChuVi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kết Quả diện tích"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvKetQuaDienTich"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Diện tích"
+            android:textSize="26dp"></TextView>
+
+        <EditText
+            android:id="@+id/edKetQuaDienTich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kết Quả diện tích"
+            ></EditText>
+    </LinearLayout>
+
+</LinearLayout>
